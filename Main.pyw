@@ -597,6 +597,7 @@ class QTLayout(QtGui.QMainWindow):
 
 
 def main():
+    global app
     app = QtGui.QApplication(sys.argv)
     form = QTLayout()
     form.show()
