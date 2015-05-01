@@ -1,0 +1,26 @@
+269c269
+<         pyplot.ion()
+---
+> #        pyplot.ion()
+273c273
+<     pyplot.ion()  # prevents that execution stops after plotting
+---
+> #    pyplot.ion()  # prevents that execution stops after plotting
+4963,4964c4963,4964
+<             print('global variable pyplot.rcParams[\'font.size\'] set (from ' +
+<                   str(pyplot.rcParams['font.size']) + ') to ' + str(fontsize))
+---
+> #            print('global variable pyplot.rcParams[\'font.size\'] set (from ' +
+> #                  str(pyplot.rcParams['font.size']) + ') to ' + str(fontsize))
+5118,5120c5118,5120
+<         pyplot.ion()
+<         pyplot.draw()  # update "screen"
+<         pyplot.show()  # show figure
+---
+> #        pyplot.ion()
+> #        pyplot.draw()  # update "screen"
+> #        pyplot.show()  # show figure
+5199c5199
+<         pyplot.ion()
+---
+> #        pyplot.ion()

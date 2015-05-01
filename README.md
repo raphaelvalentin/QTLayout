@@ -1,2 +1,2 @@
 # qtlayout
-Layout Shape Tool Development based on Python Script Langage
+Layout Shape Tool based on Python Script Langage

@@ -1,0 +1,26 @@
+** 'my script'
+.Units um
+.Default z=0 sigma=50.0
+.freq fmin=100000000.0 fmax=10000000000.0 ndec=1
+N1 x=0 y=0
+N2 x=500 y=0
+N3 x=500 y=500
+N4 x=0 y=500
+N5 x=0 y=1
+N6 x=100 y=100
+N7 x=400 y=100
+N8 x=400 y=400
+N9 x=100 y=400
+N10 x=100 y=101
+.equiv N1 N6
+.equiv N5 N10
+E1 N1 N2 w=10 h=3.4 nhinc=5 nwinc=15
+E2 N2 N3 w=10 h=3.4 nhinc=5 nwinc=15
+E3 N3 N4 w=10 h=3.4 nhinc=5 nwinc=15
+E4 N4 N5 w=10 h=3.4 nhinc=5 nwinc=15
+E5 N6 N7 w=8 h=3.4 nhinc=5 nwinc=15
+E6 N7 N8 w=8 h=3.4 nhinc=5 nwinc=15
+E7 N8 N9 w=8 h=3.4 nhinc=5 nwinc=15
+E8 N9 N10 w=8 h=3.4 nhinc=5 nwinc=15
+.external N1 N5
+.end
